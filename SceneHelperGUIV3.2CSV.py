@@ -10,8 +10,6 @@ from tkinter import ttk
 from datetime import datetime
 from obswebsocket import obsws, requests
 
-print("欢迎使用数字场记板制片版！\n作者：@巧克力蛋包饭\n您现在所使用的版本是V3.2。\n鸣谢列表：\n@Not Cat（提议：CSV格式）\n@猫ちゃん丶（提议：自动重录功能）\n@你亲爱的酒保_K（VRChat拍摄道具）\n@可可脂 与@SKP彭彭 等VRCD创作者系列活动运营组成员（产品宣发）\n\n欢迎加入SceneHelper公测群（882127120）或VRCD玩家社区QQ群（750258838）参与话题讨论。\n\n请打开OBS-工具中的Websocket功能")
-
 expections=["NG", "COOL", "OK"]
 
 host = input("\n请输入Websocket连接地址(默认为localhost)：")
