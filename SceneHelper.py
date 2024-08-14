@@ -3,7 +3,6 @@ import logging
 import time
 import re
 import tkinter as tk
-from tkinter import messagebox
 from tkinter import PhotoImage
 from datetime import datetime
 from openpyxl import Workbook
